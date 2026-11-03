@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# Vercel / deployment
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Uploads / local data
+uploads/
+*.pdf
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
